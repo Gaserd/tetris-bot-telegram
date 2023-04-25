@@ -415,6 +415,12 @@ class Board {
     }
 
     init() {
+
+        let allWidth = document.body.clientWidth - 100
+        $("#board").css({ 
+            width : allWidth + 'px'
+        })
+
         $(".empty").each(function (index, ele) {
 
             let x = parseInt(index / 10);
