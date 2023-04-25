@@ -37,8 +37,8 @@ body {
   }
   
   .btn-rounded {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
   }
   
@@ -55,7 +55,7 @@ body {
   }
   
   #outer-board {
-    width: 365px;
+    width: 100%;
     margin: auto;
   }
   
@@ -63,8 +63,8 @@ body {
     float: left;
     position: relative;
     background-color: #c4d6a7;
-    width: 280px;
-    height: 448px;
+    width: 90%;
+    height: 90%;
     margin: 10px auto;
     border: 2px solid #303a21;
   }
@@ -74,9 +74,15 @@ body {
     position: relative;
     background-color: #c4d6a7;
     width: 70px;
-    height: 448px;
+    height: 90%;
     margin: 10px auto;
     border: 2px solid #303a21;
+  }
+
+  .buttons {
+    display: block;
+    position: absolute;
+    bottom: 0;
   }
   
   #banner {
@@ -109,8 +115,10 @@ body {
   .empty {
     position: absolute;
     background-color: #c4d6a7;
-    width: 28px;
-    height: 28px;
+    /*
+    width: 87px;
+    height: 97px;
+    */
   }
   
   .empty {
@@ -121,16 +129,16 @@ body {
     position: absolute;
     background-color: #c4d6a7;
     border: 4px solid #303a21;
-    width: 14px;
-    height: 14px;
+    width: 80%;
+    height: 80%;
     margin: 3px;
   }
   
   .inner-inner-tile {
     position: absolute;
     background-color: #303a21;
-    width: 8px;
-    height: 8px;
-    margin: 3px;
+    width: 50%;
+    height: 50%;
+    margin: 25%;
   }
   
